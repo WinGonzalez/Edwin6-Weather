@@ -9,6 +9,7 @@ Weather-Dashboard is an online tool that delivers an intuitive and streamlined e
 
 ## Links 
 [Github-Page]
-Coming soon!
+https://github.com/WinGonzalez/Edwin6-Weather
+
 [Deployed-Webpage]
 Coming soon!
