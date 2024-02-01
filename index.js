@@ -1,11 +1,11 @@
 class LocationSearch {
-  constructor(cityName, latitude, longitude) {
-    this.cityName = cityName;
-    this.latitude = latitude;
-    this.longitude = longitude; 
-  }
-  }
-  
+    constructor(cityName, latitude, longitude) {
+        this.cityName = cityName;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+}
+
 
 // Initialize or retrieve search histories from local storage
 let savedSearches = JSON.parse(localStorage.getItem('savedSearches')) || [];
