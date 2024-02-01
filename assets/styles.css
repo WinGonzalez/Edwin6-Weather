@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(83, 230, 86);
+}
+
+.rounded-section {
+  border: 0;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+/* Applying the rounded-section style to the header, if you have one */
+header.rounded-section {
+  border-radius: 0 0 1rem 1rem;
+  background-color: rgb(33, 203, 73);
+}
+
+/* Updated selectors based on the provided HTML structure */
+#search-container {
+  background-color: rgb(120, 220, 120);
+  border-radius: 0.25rem; /* Apply rounded corners */
+}
+
+#search-history {
+  background-color: rgb(11, 157, 62);
+  border-radius: 0.25rem; /* Apply rounded corners */
+}
+
+/* Assuming #empty-search is meant for #No-Search */
+#empty-search {
+  background-color: rgb(77, 14, 236);
+  border-radius: 0.25rem; /* Apply rounded corners */
+}
+
+/* Assuming #weather-details is meant for #Current-Weather */
+#weather-details {
+  background-color: rgb(244, 84, 26);
+  border-radius: 0.25rem; /* Apply rounded corners */
+}
+
+/* Direct match */
+#weather-forecast {
+  background-color: rgb(247, 236, 108);
+  border-radius: 0.25rem; /* Apply rounded corners */
+}
+
+/* This applies to children of #Forecast that also have .rounded-section, if any */
+#weather-forecast .rounded-section {
+  background-color: rgb(6, 248, 58);
+  flex-shrink: 1;
+}
+
+/* Styling buttons globally */
+button {
+  border-radius: 1rem;
+}
